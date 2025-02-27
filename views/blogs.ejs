@@ -1,0 +1,22 @@
+<%- include('partials/header.ejs'); -%>
+<h1>Blogs</h1>
+<hr>
+<br>
+<div class="sub_container">
+    <%blogs.forEach(function(element){ %>
+    <div class="del_container">
+        <div>
+            <h1 class="title_b_text"><%=element.title;%></h1><br>
+            <p><%=element.content.substring(0,100)+"....";%>
+                <a href="/blogs/<%=element._id%>">Read More</a>
+            </p>
+        </div>
+        <form method="post" action="/delete">
+            <div class="del_btn">
+                <button name="del_btn_1" class="del_btn_1" value=<%=element._id%>><i class="fa-solid fa-trash"></i></button>
+            </div>
+        </form>
+    </div>
+    <% }); %>
+</div>
+<%- include('partials/footer.ejs'); -%>
