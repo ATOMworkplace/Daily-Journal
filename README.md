@@ -2,6 +2,14 @@
 <h2>Description</h2>
 <span>This is a blog website made with EJS, CSS, Javascript, Node.js, Express.js, MongoDB, and Mongoose. This project is made for learning and understanding the workings of database and their use and application on websites.</span>
 
+---
+
+### Acknowledgment & Purpose
+
+This project was created for **learning and practice purposes**. It is primarily based on concepts and code structures demonstrated in various online tutorials and resources, which served as invaluable guides in my understanding and implementation. While I've applied my own learning and made adaptations, the core ideas and fundamental components originate from these educational materials. This repository showcases my efforts to understand and apply specific technologies and programming paradigms, rather than presenting entirely novel creation.
+
+---
+
 <h2>How to start</h2>
 <span>To start this project follow the mentioned steps:</span>
 <ul>
@@ -9,6 +17,7 @@
   <li>Create a MongoDB atlas account and start a new cluster from there copy your username and password.</li>
 
   ![0](https://github.com/ATOMworkplace/Blog-Website/assets/114564628/2ae7443e-ae66-4947-93d7-5434374df145)
+  
   <li>replace username with <username> and password with <password> in above mentioned locations</li>
   <li>Try starting it by using the command node app.js in your terminal. make sure you are in the required directory before executing command</li>
 </ul>
